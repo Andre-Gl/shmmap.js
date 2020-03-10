@@ -7,6 +7,10 @@
         "IPC",
         "mmap"
     ],
+    "scripts": {
+        "configure": "node-gyp configure",
+        "build": "node-gyp rebuild --release"
+    },
     "license": "MIT",
     "version": "1.0.0",
     "main": "module.js",
